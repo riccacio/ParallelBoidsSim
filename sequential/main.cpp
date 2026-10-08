@@ -17,7 +17,7 @@ int main(int argc, char* argv[])
 {
     // esegui il programma per un numero diverso di agenti (boids)
     const int numberOfAgentsCases = 6;
-    const int numberOfAgents[numberOfAgentsCases] = {10000};
+    const int numberOfAgents[numberOfAgentsCases] = {100, 500, 1000, 2000, 5000, 10000};
     // esegui il ogni caso di agents per tot volte
     const int numberOfRuns = 10;
     // fattore di velocità globale di simulazione
