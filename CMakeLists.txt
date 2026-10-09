@@ -11,9 +11,9 @@ find_package(OpenMP REQUIRED)
 find_package(SFML COMPONENTS Graphics Window System REQUIRED)
 
 set(SOURCE_SEQ
-        sequential/main.cpp
-        sequential/boidsSeq.cpp
-        sequential/boidsSeq.h
+        sequential/mainSeq.cpp
+        sequential/boidSeq.cpp
+        sequential/boidSeq.h
 )
 
 # Definisci il tuo eseguibile (aggiungi qui tutti i tuoi file .cpp, ad esempio src/boids.cpp)
